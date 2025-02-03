@@ -1,0 +1,157 @@
+/* .stats-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.stat {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.stat i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stat h4 {
+    margin: 0;
+}
+
+*/
+
+
+
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #337AB7; /* blue */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stat {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.stat i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.stat h4 {
+    margin: 0;
+    color: #fff;
+}
+
+.product-card {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-subtitle {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.card-link {
+    color: #337AB7; /* blue */
+    text-decoration: none;
+}
+
+.card-link:hover {
+    color: #23527C; /* darker blue */
+}
+
+.delete-btn {
+    background-color: #D9534F; /* red */
+    border-color: #D43F3A;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #C9302C; /* darker red */
+}
+
+.update-btn {
+    background-color: #337AB7; /* blue */
+    border-color: #2E6DA4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-btn:hover {
+    background-color: #23527C; /* darker blue */
+}
+
+body {
+    background-image: linear-gradient(45deg, #00bfff, #ff1493, blue);
+    background-size: 500% 500%;
+    animation: gradientShift 10s infinite;
+}
+  
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-control {
+    border-color: #ccc;
+}
+
+.btn-primary {
+    background-color: #337AB7; /* blue */
+    border-color: #2E6DA4;
+}s
+
+.btn-danger {
+    background-color: #D9534F; /* red */
+    border-color: #D43F3A;
+}
+
+.btn-outline-info {
+    color: #fff;
+    background-color: #5BC0DE; /* light blue */
+    border-color: #46B8DA;
+}
+
+.btn-outline-info:hover {
+    background-color: #31B0D5;
+}
+
+
+
+
